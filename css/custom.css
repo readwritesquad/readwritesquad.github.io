@@ -121,7 +121,7 @@ header .header-content .header-content-inner p {
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: rgb(255, 255, 255)!important;
+    color: rgb(82, 82, 82)!important;
     background-color: transparent;
 }
 
@@ -194,5 +194,7 @@ header .header-content .header-content-inner p {
     background: #222;
 }
 
-
+.whatare-we {
+    top: 60%;
+}
 
