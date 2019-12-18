@@ -90,14 +90,19 @@ header .header-content .header-content-inner p {
     -moz-transition: all .35s;
     transition: all .35s;
 }
+.navbar-header {
+    background-color: #000;
+}
+
+
 
 .navbar-default .navbar-header .navbar-brand {
-    color: rgb(26, 14, 83);
+    color: rgb(255, 255, 255);
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #505050;
 }
 
 .navbar-default .nav > li>a,
