@@ -20,7 +20,17 @@ h2 {
     animation: glitch1 0.5s infinite;
     height: 0px;  
   }
+.kaas {    text-align: center;
+    color: #d9fff9;
+    font-size: 80px;
+    letter-spacing: 6px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 0;
+}
 
+	    
+	    
   h2:nth-child(2) {
     color: #0ef0e1;
     animation: glitch2 1.0s infinite;
