@@ -20,7 +20,9 @@ h2 {
     animation: glitch1 0.5s infinite;
     height: 0px;  
   }
-.kaas {    text-align: center;
+
+.kaas {    
+    text-align: center;
     color: #d9fff9;
     font-size: 80px;
     letter-spacing: 6px;
