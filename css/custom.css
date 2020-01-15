@@ -8,41 +8,68 @@ body {
 h4{
     font-size: 23px;
 }
-
-h2 {
-    text-align: center;
+.contact{
+  font-size: 45px;
+  height: 5vh;
+}
+.glitcher
+{
+  text-align: center;
     color: #d9fff9;
     font-size: 80px;
     letter-spacing: 6px;
     font-weight: 300;
     margin: 0;
     line-height: 0;
-    animation: glitch1 0.5s infinite;
-    height: 0px;  
-  }
-
-.kaas {    
-    text-align: center;
+    height: 5vh;
+}
+.glitched
+{
+  text-align: center;
     color: #d9fff9;
-    font-size: 80px;
-    letter-spacing: 6px;
+    font-size: 30px;
+    letter-spacing: 4px;
     font-weight: 300;
     margin: 0;
     line-height: 0;
 }
+h2 {
+  text-align: center;
+  color: #d9fff9;
+  font-size: 80px;
+  letter-spacing: 6px;
+  font-weight: 300;
+  margin: 0;
+  line-height: 0;
+  height: 0px;
+}
+h4 {
+    text-align: center;
+    color: #d9fff9;
+    font-size: 45px;
+    letter-spacing: 6px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 0;
+    height: 0px;
+}
+h2:nth-child(2)
+{
+  animation: glitch2 1s infinite; 
+  color: #0ef0e1;
+  height: 0px;
+}
+h2:nth-child(3)
+{
+  color: #ff94eb;
+  animation: glitch3 1.0s infinite;   
+  height: 100px;
+}
 
-	    
-	    
-  h2:nth-child(2) {
-    color: #0ef0e1;
-    animation: glitch2 1.0s infinite;
-    height: 0px; 
+.glitch {
+    animation: glitch1 0.5s infinite; 
   }
-  h2:nth-child(3) {
-    color: #ff94eb;
-    animation: glitch3 1.0s infinite;
-    height: 100px; 
-  }
+
   h3 {
     text-align: center;
     color: #d9fff9;
@@ -51,19 +78,20 @@ h2 {
     font-weight: 300;
     margin: 0;
     line-height: 0;
-    animation: glitch1 0.5s infinite;
   }
 
-  h3:nth-child(2) {
-    color: #0ef0e1;
-    animation: glitch2 1.0s infinite;
-    line-height: 0;
-  }
-  h3:nth-child(3) {
-    color: #ff94eb;
-    animation: glitch3 1.0s infinite;
-    line-height: 0;
-  }
+  h3:nth-child(2)
+{
+  animation: glitch2 1s infinite; 
+  color: #0ef0e1;
+  height: 0px;
+}
+h3:nth-child(3)
+{
+  color: #ff94eb;
+  animation: glitch3 1.0s infinite;   
+  height: 100px;
+}
 
   @keyframes glitch1 {
     0% {
@@ -295,3 +323,6 @@ header .header-content .header-content-inner p {
     color: #fff;
     background: #222;
 }
+
+
+
