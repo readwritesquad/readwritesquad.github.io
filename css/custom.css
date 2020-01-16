@@ -1,3 +1,7 @@
+h1 {
+  height: 100%;
+  width: auto;
+}
 html,
 body {
     width: 100%;
@@ -7,6 +11,9 @@ body {
 
 h4{
     font-size: 23px;
+}
+h5{
+  font-size: 25px;
 }
 .contact{
   font-size: 45px;
